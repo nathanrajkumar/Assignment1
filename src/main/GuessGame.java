@@ -12,7 +12,6 @@ public class GuessGame {
 		final int MAX_RAND_NUM = 100;
 		int numberToGuess = generateRandomNumber(MIN_RAND_NUM,MAX_RAND_NUM);
 		Scanner scanner = new Scanner(System.in);
-		System.out.println(numberToGuess);
 		System.out.println("Pick a number between 1 and 100");
 		
 		boolean isWin = false;
